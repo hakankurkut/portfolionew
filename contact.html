@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hakan</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-md-12">
+        <nav id="work" class="navbar navbar-expand-sm bg-dark navbar-dark">
+          <a class="navbar-brand brand-container"  href="index.html"><img src="media\images\hakankurkut.jpg" alt="My picture" width="200" height="200"></a>
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="https://github.com/hakankurkut" target="_blank">Projects</a></li>
+              <li class="navitem"><a class="nav-link" href="contact.html">Contact</a></li>
+          </nav>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="row">
+        <div class="col-md-8">
+          <!-- insert content for main column below -->
+          <div class="container">
+    <form action="action_page.php">
+
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+
+    </form>
+  </div>
+        </div> <!-- ends col-md-8, main column -->
+        <div class="col-md-4">
+          <!-- insert content for right column below -->
+          <h1>Follow me</h1>
+          <ul>
+            <li><a href="https://www.facebook.com/hakan.kurkut.712714" target="_blank">Facebook</a></li>
+          </ul>
+
+        </div> <!-- ends col-md-4, right column -->
+      </div> <!-- ends row -->
+    </div> <!-- ends main -->
+  </body>
+</html>
